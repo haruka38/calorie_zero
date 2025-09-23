@@ -1,0 +1,4 @@
+<!-- app/views/foods/excuse.turbo_stream.erb -->
+<%= turbo_stream.replace "excuse_area" do %>
+  <%= render "excuse", excuse: @excuse %>
+<% end %>
